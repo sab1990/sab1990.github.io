@@ -10,11 +10,10 @@ Static GitHub Pages site for Bayside Bachata.
 
 ## Deployment
 
-GitHub Pages deployment is configured through [`.github/workflows/deploy.yml`](/Users/sabal.shrestha/Documents/Personal/personal_repos/sab1990.github.io/.github/workflows/deploy.yml).
-
-To publish the site from GitHub:
+To publish the site from GitHub Pages using the default branch deployment:
 
 1. Push the repository to the `main` branch on GitHub.
 2. In the GitHub repository settings, open `Settings > Pages`.
-3. Set `Source` to `GitHub Actions` if it is not already selected.
-4. The workflow will deploy the contents of the repository root as the Pages site.
+3. Set `Source` to `Deploy from a branch`.
+4. Set `Branch` to `main` and the folder to `/ (root)`.
+5. GitHub Pages will publish the static files from the repository root.
